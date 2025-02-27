@@ -1,0 +1,9 @@
+{
+    "name": "Apple MacBook Pro 16 Andy",
+    "data": {
+        "year": 2022,
+        "price": 1999.99,
+        "CPU model": "Intel Core i7",
+        "Hard disk size": "2 TB"
+    }
+}
