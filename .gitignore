@@ -1,0 +1,54 @@
+# created by virtualenv automatically
+
+# Ігноруємо віртуальне середовище
+.venv/
+env/
+venv/
+
+# Ігноруємо файли, які генеруються Python'ом
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Ігноруємо лог-файли
+*.log
+
+# Ігноруємо налаштування PyCharm
+.idea/
+.vscode/
+
+# Ігноруємо залежності, якщо використовуєш pipenv або poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ігноруємо coverage-файли
+.coverage
+htmlcov/
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Ігноруємо тести та звіти
+.tox/
+noxfile.py
+.nox/
+junit.xml
+
+# Ігноруємо артефакти build'а
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Ігноруємо кеш Pytest
+.pytest_cache/
+
+# Ігноруємо картинки
+Image/
+
