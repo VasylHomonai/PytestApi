@@ -15,6 +15,11 @@ def test_create_object():
         new_object_endpoint.check_model(payload['data']['CPU model'])
         new_object_endpoint.check_size(payload['data']['Hard disk size'])
 
+        # Видалення створеного об'єкта
+        obj_id = new_object_endpoint.response_json["id"]
+        delete_object = DeleteObject()
+        delete_object.delete_by_id(obj_id)
+
 
 def test_get_object(object_id):
         get_object_endpoint = GetObject()
